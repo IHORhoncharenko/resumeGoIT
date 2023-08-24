@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  background: #f6f6fa;
+  padding: 40px;
+}
+.main-wrapp {
+  background: #fff;
+  display: grid;
+  grid-template-columns: minmax();
+}
