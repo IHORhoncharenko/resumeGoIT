@@ -18,89 +18,11 @@
 
 <body itemscope itemtype="https://schema.org/ProfilePage https://schema.org/Person">
 	<div class="main-wrapp">
-		<header class="main-header">
+		<header class="main-wrapp__main-header">
 			<hgroup>
 				<p><i lang="en">Front-End Developer</i></p>
 				<h1><span itemprop="givenName">Ігор</span> <span itemprop="familyName">Гончаренко</span></h1>
 			</hgroup>
-			<div itemprop="primaryImageOfPage image" itemtype="https://schema.org/ImageObject" itemscope>
-				<img width="370" height="370" fetchPriority="high" decoding="async" itemprop="contentUrl"
-					src="./assets/ihor-honcharenko.jpg"
-					alt="Ігор Гончаренко,  перспективний кандидат на позицію junior frontend developer."
-					title="Ігор Гончаренко" sizes="370px" srcset="
-                    ./assets/ihor-honcharenko-370w.jpg 370w,
-                    ./assets/ihor-honcharenko-740w.jpg 740w,
-                    ./assets/ihor-honcharenko.jpg 960w
-                ">
-				<meta itemprop="description" content="Фото для резюме, кандидата на позицію junior frontend developer.">
-				<meta itemprop="caption" content="Ігор Гончаренко">
-				<meta itemprop="width" content="960px">
-				<meta itemprop="height" content="960px">
-				<meta itemprop="isFamilyFriendly" content="https://schema.org/True">
-				<meta itemprop="representativeOfPage" content="https://schema.org/True">
-
-				<div itemprop="thumbnail" itemscope itemtype="http://schema.org/ImageObject">
-					<link itemprop="contentUrl"
-						href="./assets/ihor-honcharenko_p5vofg_ar_16_9,c_fill,g_auto__c_scale,w_596.jpg">
-					<meta itemprop="width" content="596px">
-					<meta itemprop="height" content="335px">
-				</div>
-
-				<div itemprop="thumbnail" itemscope itemtype="http://schema.org/ImageObject">
-					<link itemprop="contentUrl"
-						href="./assets/ihor-honcharenko_p5vofg_ar_16_9,c_fill,g_auto__c_scale,w_960.jpg">
-					<meta itemprop="width" content="960px">
-					<meta itemprop="height" content="539px">
-				</div>
-				<div itemprop="thumbnail" itemscope itemtype="http://schema.org/ImageObject">
-					<link itemprop="contentUrl"
-						href="./assets/ihor-honcharenko_p5vofg_ar_1_1,c_fill,g_auto__c_scale,w_190.jpg">
-					<meta itemprop="width" content="190px">
-					<meta itemprop="height" content="190px">
-				</div>
-
-				<div itemprop="thumbnail" itemscope itemtype="http://schema.org/ImageObject">
-					<link itemprop="contentUrl"
-						href="./assets/ihor-honcharenko_p5vofg_ar_1_1,c_fill,g_auto__c_scale,w_556.jpg">
-					<meta itemprop="width" content="556px">
-					<meta itemprop="height" content="556px">
-				</div>
-
-				<div itemprop="thumbnail" itemscope itemtype="http://schema.org/ImageObject">
-					<link itemprop="contentUrl"
-						href="./assets/ihor-honcharenko_p5vofg_ar_1_1,c_fill,g_auto__c_scale,w_798.jpg">
-					<meta itemprop="width" content="798px">
-					<meta itemprop="height" content="798px">
-				</div>
-
-				<div itemprop="thumbnail" itemscope itemtype="http://schema.org/ImageObject">
-					<link itemprop="contentUrl"
-						href="./assets/ihor-honcharenko_p5vofg_ar_1_1,c_fill,g_auto__c_scale,w_960.jpg">
-					<meta itemprop="width" content="960px">
-					<meta itemprop="height" content="960px">
-				</div>
-
-				<div itemprop="thumbnail" itemscope itemtype="http://schema.org/ImageObject">
-					<link itemprop="contentUrl"
-						href="./assets/ihor-honcharenko_p5vofg_ar_4_3,c_fill,g_auto__c_scale,w_538.jpg">
-					<meta itemprop="width" content="538px">
-					<meta itemprop="height" content="404px">
-				</div>
-
-				<div itemprop="thumbnail" itemscope itemtype="http://schema.org/ImageObject">
-					<link itemprop="contentUrl"
-						href="./assets/ihor-honcharenko_p5vofg_ar_4_3,c_fill,g_auto__c_scale,w_836.jpg">
-					<meta itemprop="width" content="836px">
-					<meta itemprop="height" content="627px">
-				</div>
-
-				<div itemprop="thumbnail" itemscope itemtype="http://schema.org/ImageObject">
-					<link itemprop="contentUrl"
-						href="./assets/ihor-honcharenko_p5vofg_ar_4_3,c_fill,g_auto__c_scale,w_960.jpg">
-					<meta itemprop="width" content="960px">
-					<meta itemprop="height" content="720px">
-				</div>
-			</div>
 		</header>
 		<div class="awesome">
 			<div class="aw2">
@@ -226,21 +148,100 @@
 			</div>
 			<!-- Tech Skills, Soft Skills та контакти для зв'язку це частина основного контенту сторінки "Резюме", таким чином цей контент не може бути огорнутий в тег aside згідно з офіційною специфікацією html5 -->
 			<div class="skills">
-				<!-- Згідно з специфікацією HTML5 секція контенту може мати безліч дочірніх тегів header та footer. Я навмисно вказую header після відкриваючого тега body і перед закриваючим тегом body.  -->
-				<header>
-					<!-- Вказуємо id="contacts" як ідентифікатор зв'язку з основною сутностю https://schema.org/Person -->
-					<div>
+				<div>
+					<!-- Згідно з специфікацією HTML5 секція контенту може мати безліч дочірніх тегів header та footer. Я навмисно вказую header після відкриваючого тега body і перед закриваючим тегом body.  -->
+					<header>
+						<div itemprop="primaryImageOfPage image" itemtype="https://schema.org/ImageObject" itemscope>
+							<img width="370" height="370" fetchPriority="high" decoding="async" itemprop="contentUrl"
+								src="./assets/ihor-honcharenko.jpg"
+								alt="Ігор Гончаренко,  перспективний кандидат на позицію junior frontend developer."
+								title="Ігор Гончаренко" sizes="370px" srcset="
+									                    ./assets/ihor-honcharenko-370w.jpg 370w,
+									                    ./assets/ihor-honcharenko-740w.jpg 740w,
+									                    ./assets/ihor-honcharenko.jpg 960w
+									                ">
+							<meta itemprop="description"
+								content="Фото для резюме, кандидата на позицію junior frontend developer.">
+							<meta itemprop="caption" content="Ігор Гончаренко">
+							<meta itemprop="width" content="960px">
+							<meta itemprop="height" content="960px">
+							<meta itemprop="isFamilyFriendly" content="https://schema.org/True">
+							<meta itemprop="representativeOfPage" content="https://schema.org/True">
+
+							<div itemprop="thumbnail" itemscope itemtype="http://schema.org/ImageObject">
+								<link itemprop="contentUrl"
+									href="./assets/ihor-honcharenko_p5vofg_ar_16_9,c_fill,g_auto__c_scale,w_596.jpg">
+								<meta itemprop="width" content="596px">
+								<meta itemprop="height" content="335px">
+							</div>
+
+							<div itemprop="thumbnail" itemscope itemtype="http://schema.org/ImageObject">
+								<link itemprop="contentUrl"
+									href="./assets/ihor-honcharenko_p5vofg_ar_16_9,c_fill,g_auto__c_scale,w_960.jpg">
+								<meta itemprop="width" content="960px">
+								<meta itemprop="height" content="539px">
+							</div>
+							<div itemprop="thumbnail" itemscope itemtype="http://schema.org/ImageObject">
+								<link itemprop="contentUrl"
+									href="./assets/ihor-honcharenko_p5vofg_ar_1_1,c_fill,g_auto__c_scale,w_190.jpg">
+								<meta itemprop="width" content="190px">
+								<meta itemprop="height" content="190px">
+							</div>
+
+							<div itemprop="thumbnail" itemscope itemtype="http://schema.org/ImageObject">
+								<link itemprop="contentUrl"
+									href="./assets/ihor-honcharenko_p5vofg_ar_1_1,c_fill,g_auto__c_scale,w_556.jpg">
+								<meta itemprop="width" content="556px">
+								<meta itemprop="height" content="556px">
+							</div>
+
+							<div itemprop="thumbnail" itemscope itemtype="http://schema.org/ImageObject">
+								<link itemprop="contentUrl"
+									href="./assets/ihor-honcharenko_p5vofg_ar_1_1,c_fill,g_auto__c_scale,w_798.jpg">
+								<meta itemprop="width" content="798px">
+								<meta itemprop="height" content="798px">
+							</div>
+
+							<div itemprop="thumbnail" itemscope itemtype="http://schema.org/ImageObject">
+								<link itemprop="contentUrl"
+									href="./assets/ihor-honcharenko_p5vofg_ar_1_1,c_fill,g_auto__c_scale,w_960.jpg">
+								<meta itemprop="width" content="960px">
+								<meta itemprop="height" content="960px">
+							</div>
+
+							<div itemprop="thumbnail" itemscope itemtype="http://schema.org/ImageObject">
+								<link itemprop="contentUrl"
+									href="./assets/ihor-honcharenko_p5vofg_ar_4_3,c_fill,g_auto__c_scale,w_538.jpg">
+								<meta itemprop="width" content="538px">
+								<meta itemprop="height" content="404px">
+							</div>
+
+							<div itemprop="thumbnail" itemscope itemtype="http://schema.org/ImageObject">
+								<link itemprop="contentUrl"
+									href="./assets/ihor-honcharenko_p5vofg_ar_4_3,c_fill,g_auto__c_scale,w_836.jpg">
+								<meta itemprop="width" content="836px">
+								<meta itemprop="height" content="627px">
+							</div>
+
+							<div itemprop="thumbnail" itemscope itemtype="http://schema.org/ImageObject">
+								<link itemprop="contentUrl"
+									href="./assets/ihor-honcharenko_p5vofg_ar_4_3,c_fill,g_auto__c_scale,w_960.jpg">
+								<meta itemprop="width" content="960px">
+								<meta itemprop="height" content="720px">
+							</div>
+						</div>
+						<!-- Вказуємо id="contacts" як ідентифікатор зв'язку з основною сутностю https://schema.org/Person -->
 						<p class="p-contact">Контакти</p>
 						<p class="p-contact--info">C: <a itemprop="telephone" href="tel:+380966864791">+38 (096)
 								686-47-91</a></p>
 						<p class="p-contact--info">E: <a itemprop="email"
 								href="mailto:gon4arenko.igor@gmail.com">gon4arenko.igor@gmail.com</a>
 						</p>
-					</div>
-				</header>
+					</header>
+				</div>
 				<section>
 					<h2>Tech Skills</h2>
-					<ul class="skills">
+					<ul>
 						<li>HTML5</li>
 						<li>CSS3</li>
 						<li>GIT</li>
@@ -253,7 +254,7 @@
 				</section>
 				<section>
 					<h2>Soft Skills</h2>
-					<ul class="skills">
+					<ul>
 						<li>Scrum <p>Рівень знань: <progress max=100 value="15"><span>15</span>%</progress></p>
 						</li>
 						<li>Agile <p>Рівень знань: <progress max=100 value="0"><span>0</span>%</progress></p>
